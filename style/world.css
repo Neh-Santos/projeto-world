@@ -1,0 +1,83 @@
+/* Estilo do global */
+body{
+    color: #333;
+    background-color: #f4f0ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo do Cabeçalho */
+header{
+    padding: 30px;
+    color: #798252;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222;
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p{
+    line-height: 22px;
+}
+
+/* Estilo do Conteúdo */
+section{
+    margin: auto;
+    padding: 30px;
+    max-width: 800px;
+    min-width: 400px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1.5px 1.5px 2px #00000060;
+}
+
+section h2{
+    font-size: 1.5em;
+    color: #798257;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px solid #798257;
+}
+
+section p{
+    line-height: 22px;
+    text-align: justify;
+}
+
+section strong{
+    color: #8c995b;
+}
+
+p.mundo a{
+    text-decoration: none;
+    color: #7979ff;
+}
+
+p.mundo:hover a{
+    padding: 1.3px;
+    color: #1f1e1e;
+    border-radius: 3px;
+    text-decoration: underline;
+    background-color: #789120;
+}
+
+Ul li{
+    margin-bottom: 5px;
+}
+
+/* Estilo do Rodapé */
+footer{
+    width: 98,5%;
+    padding: 0.3px;
+    margin-top: 12px;
+    color: #798252;
+    font-size: 0.80em;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #333;
+}
