@@ -1,0 +1,85 @@
+/* Estilo global */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&family=Playwrite+DE+SAS:wght@100..400&family=Rammetto+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&family=Playwrite+DE+SAS:wght@100..400&family=Rammetto+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font-padrao: "Roboto Mono", monospace;
+    --font-link: "Atkinson Hyperlegible", sans-serif;
+}
+
+/* Estilo do Cabeçalho */
+header{
+    padding: 25px;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+}
+
+header > h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estolo do corpo */
+main{
+    margin: auto;
+    padding: 30px;
+    max-width: 80%;
+    min-width: 400px;
+    color: #5d5d5d;
+    box-shadow: 0px 0px 10px #00000069;
+}
+
+/* Estilo do conteúdo */
+div.imagem{
+    padding: 18px;
+    position: relative;
+    padding: 8px -15px 8px -30px;
+}
+
+div.imagem > img{
+    left: 5%;
+    width: 88%;
+    height: 88%;
+    position: relative;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3{
+    padding: 20px;
+    text-indent: 35px;
+}
+
+
+section p{
+    text-align: justify;
+    line-height: 22px;
+}
+
+/* Estilo do Rodapé */
+footer{
+    text-align: center;
+    font-family: var(--font-link);
+    color: #ffffff;
+    padding: 25px;
+    background-color: #4c4c4c;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #0aadab;
+    text-decoration: underline;
+}
