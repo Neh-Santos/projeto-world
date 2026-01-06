@@ -16,7 +16,6 @@
 /* Estilo do Cabeçalho */
 header{
     padding: 25px;
-    justify-content: space-between;
     background-color: #4c4c4c;
 }
 
@@ -38,16 +37,17 @@ main{
 
 /* Estilo do conteúdo */
 div.imagem{
-    padding: 18px;
-    position: relative;
-    padding: 8px -15px 8px -30px;
+    padding: 8px 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.imagem > img{
-    left: 5%;
-    width: 88%;
-    height: 88%;
-    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
 }
 
 section{
@@ -77,9 +77,34 @@ footer{
 footer a{
     color: #ffffff;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 footer a:hover{
     color: #0aadab;
     text-decoration: underline;
+}
+
+/* Para tela entre 739px e 664px */
+@media screen and ( max-width:739px ) {
+    .sete{
+         max-width: 28ch;
+        line-height: 1.3;
+    }
+}
+
+/* Para telas entre 664px e 574px */
+@media screen and ( max-width:664px ) {
+    .um{
+         max-width: 24ch;
+        line-height: 1.3;
+    }
+}
+
+/* Para telas menores que 574px */
+@media screen and ( max-width:574px ) {
+    .dois{
+         max-width: 28ch;
+        line-height: 1.3;
+    }
 }
